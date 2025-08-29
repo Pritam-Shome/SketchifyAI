@@ -17,24 +17,24 @@ const Header = () => {
   }
   return (
     
-    <div className="flex flex-col items-center py-16 px-4 max-w-4xl mx-auto text-center">
+    <div className="flex flex-col items-center py-16 px-4 max-w-8xl mx-auto text-center">
     
       <div>
         <p className="inline-flex items-center gap-2 bg-gray-800 rounded-full px-4 py-1 mb-4 text-sm font-semibold text-teal-400 shadow-md">
-          Best text to image generator
+         Convert your imagination into images
           <img src={assets.star_icon} alt="Star Icon" className="h-4 w-4" />
         </p>
       </div>
 
       
       <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6 text-white">
-        Turn text to <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">image</span>, in seconds.
-      </h1>
+  Describe it. <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">See it.</span> In seconds.
+</h1>
+
 
       
       <p className="text-lg text-gray-300 mb-10 max-w-2xl">
-        Unleash your creativity with AI. Turn your imagination into visual art
-        in seconds with our advanced text-to-image generator.
+        Imagine it. Type it. Watch AI turn your vision into vivid art in seconds!
       </p>
 
       
@@ -44,7 +44,7 @@ const Header = () => {
       </button>
 
       
-      <div className="flex justify-center flex-wrap gap-4 mb-4">
+      {/* <div className="flex justify-center flex-wrap gap-4 mb-4">
         {
           Array(6).fill('').map((item, index) => (
             <img
@@ -56,12 +56,12 @@ const Header = () => {
             />
           ))
         }
-      </div>
+      </div> */}
 
       
-      <p className="text-sm text-gray-400">
+      {/* <p className="text-sm text-gray-400">
         Generated images from imagify
-      </p>
+      </p> */}
     </div>
   )
 }
